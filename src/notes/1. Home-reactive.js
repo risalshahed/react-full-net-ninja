@@ -4,7 +4,7 @@ const Home = () => {
   const handleClick = () => {
     name = 'Risal';
     // console.log(name);
-    // outputs 'Risal'; but mot updated in buttonClick cz it's not reactive yet! we need useState hook to make it reactive!
+    // outputs 'Risal'; but not updated in buttonClick cz it's not reactive yet! we need useState hook to make it reactive!
   }
   return (
     <>
@@ -16,5 +16,5 @@ const Home = () => {
     </>
   );
 }
- 
+
 export default Home;
