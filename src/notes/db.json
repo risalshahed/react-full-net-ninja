@@ -1,0 +1,29 @@
+{
+  "blogs": [
+    {
+      "title": "First One",
+      "body": "lorem ipsum ...",
+      "author": "Niaj",
+      "id": 1
+    },
+    {
+      "title": "Second One",
+      "body": "lorem ipsum ...",
+      "author": "Diaj",
+      "id": 2
+    },
+    {
+      "title":
+      "Third One",
+      "body": "lorem ipsum ...",
+      "author": "Riaj",
+      "id": 3
+    },
+    {
+      "title": "Fourth One",
+      "body": "lorem ipsum ...",
+      "author": "Niaj",
+      "id": 4
+    }
+  ]
+}

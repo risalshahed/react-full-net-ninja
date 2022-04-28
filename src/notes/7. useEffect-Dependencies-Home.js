@@ -36,6 +36,7 @@ const Home = () => {
     <>
       <div className="home">
         <BlogList blogs={blogs} title='All Blogs!' handleDelete={handleDelete} />
+        {/* display the update after btnClick */}
         <button onClick={() => setName('Risal')}>Change Name</button>
         {/* display the name */}
         <p>{ name }</p>

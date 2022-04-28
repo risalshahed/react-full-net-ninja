@@ -23,9 +23,10 @@ const Home = () => {
       <div className="home">
         {/* passing blogs prop to BlogList component as propertyName={value} */}
         <BlogList blogs={blogs} title='All Blogs!' />
-        <BlogList blogs={blogs.filter( (
-          (blog) => blog.author === 'Niaj')
-        ) } title="Niaj's Blogs!" />
+        <BlogList blogs=
+          {blogs.filter(blog => (
+            blog.author === 'Niaj'
+          ))} title={"Niaj's Blogs"} />
       </div>
     </>
   );

@@ -1,6 +1,5 @@
 import { useState } from 'react';
 
-
 const Home = () => {
   // let name = 'anonymous';
   // Array Destructuring
